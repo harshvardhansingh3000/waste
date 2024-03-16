@@ -1,0 +1,218 @@
+
+.intro {
+    margin: 0;
+    padding: 0;
+    background-color: #90aef0;
+    color: #001B40;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.intro>#logo {
+    border-radius: 50%;
+    margin-top: 30px;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+#logo>img {
+    border-radius: 50%;
+    height: 100px;
+    margin-right:100px;
+}
+
+.intro> #photo {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-bottom: 40px;;
+    /* Adjust margin as needed */
+    
+}
+.intro img{
+    border-radius: 20%;
+    height:500px;
+    margin-left: 100px;
+}
+
+.intro h1 {
+    font-size: 5rem;
+    text-align: left;
+    margin: 50px;
+    font-family: "Libre Caslon Text", serif;
+        font-weight: 700;
+        font-style: normal;
+    margin-left: 100px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #F7EEDD;
+    text-align: left;
+    margin: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+        
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+}
+@media (max-width: 1100px){
+    .intro{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr;
+    }
+    .intro h1 {
+        text-align: center;
+        margin-top: 100px;
+    }    
+    .intro h2{
+        text-align: center;
+    }
+    .intro>#logo{
+        grid-column: span 1;
+    }
+    .intro img{
+        height: 0px;
+    }
+}
+.brief > #container1{
+    background-color: #ACE2E1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container1 > img{
+    height:300px;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    
+}
+#container1 > p{
+    margin-left: 30%;
+    margin-right:30%;
+    color: #02275b;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+        
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+}
+.skill{
+    background-color: #ACE2E1;
+}
+.skill > .container{
+    margin-left: 200px;
+    padding-top: 120px;
+    color:#02275b;
+    padding-bottom: 80px;;
+}
+.skill h2{
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+    
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    color:#02275b;
+}
+.skill .lines1{
+    font-family: "Noto Serif Display", serif;
+    font-style: normal;
+    font-size:x-large;
+    font-weight: 600;
+}
+.skill #h{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    font-family: "Libre Caslon Text", serif;
+        font-weight: 700;
+        font-style: normal;
+    font-size: 10rem;
+}
+
+#resumecard{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+.contact-me{
+    background-color: #90aef0;
+    color: #02275b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 20px;
+}
+.contact-me h2{
+    font-size: xxx-large;
+    margin-bottom: 40px;
+    font-family: "Libre Caslon Text", serif;
+        font-weight: 700;
+        font-style: normal;
+}
+.contact-me p {
+    font-size: x-large;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+    
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+}
+
+.button{
+    display:flex;
+    background-color: #90aef0;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+    
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    
+}
+.contact a{
+    border-radius: 8px;
+    background-color: #F0CDAF;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+    
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        
+}
+.footer{
+    background-color: #F0CDAF;
+    font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+    
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    
+}

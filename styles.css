@@ -1,0 +1,14 @@
+h1,h2{
+    text-align: center;
+}
+div {
+    display:flex;
+    
+    justify-content: center;
+}
+#Summary{
+    text-align: center;
+}
+.marg{
+    margin-left: 30px;
+}
